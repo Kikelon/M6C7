@@ -1,0 +1,3 @@
+<app-vista-listado [ciudades]="ciudades" [mostrar]="mostrar" (eventoMostrar) = "eligeMostrar($event)" (eventoCiudad) = "eligeCiudad($event)"></app-vista-listado>
+<app-vista-detalle [ciudad]="ciudadHijo" [id]="id" [mostrar]="mostrar" ></app-vista-detalle>
+<app-vista-nuevo [ciudades]="ciudades"></app-vista-nuevo>

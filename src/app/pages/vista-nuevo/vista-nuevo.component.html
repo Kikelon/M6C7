@@ -1,0 +1,6 @@
+<div id="toma-datos">
+    <input type="text" #nombreCiudad placeholder="Nombre de la ciudad">
+    <input type="text" #codigoCiudad placeholder="Código de ciudad (XXX)">
+    <input type="text" #paisCiudad placeholder="País de la ciudad">
+    <button  matTooltip="Guardar una nueva ciudad" type="button" id="button" (click)="addCity(nombreCiudad.value, paisCiudad.value, codigoCiudad.value); nombreCiudad.value = ''; codigoCiudad.value = ''; paisCiudad.value = ''">Guardar</button>
+</div>

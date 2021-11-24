@@ -1,0 +1,10 @@
+<ng-container *ngIf="mostrar">
+    <div>
+            Ciudad: {{ ciudad.nombre }}<br/>
+            Código: {{ ciudad.codigo }}<br/>
+            País: {{ ciudad.pais }}<br/>
+            Temperatura: {{ ciudad.clima.temperatura }} ºC<br/>
+            Fuerza del viento: {{ ciudad.clima.viento }}<br/>
+            Precipitaciones: {{ ciudad.clima.precipitaciones }}% <br/>
+    </div>
+</ng-container>
