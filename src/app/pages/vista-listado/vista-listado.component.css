@@ -1,0 +1,10 @@
+table {
+    width: 80%;
+    padding: 10px;
+}
+.tableContainer{
+  padding: 10px;
+}
+.even{
+    background-color :antiquewhite;
+}
